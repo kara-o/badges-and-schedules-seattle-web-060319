@@ -21,6 +21,6 @@ def assign_rooms(list)
 end
 
 def printer(array)
-  puts batch_badge_creator(array).join(" , ")
-  puts assign_rooms(array).join(" , ")
+  puts batch_badge_creator(array).join(", ")
+  puts assign_rooms(array).join(", ")
 end
