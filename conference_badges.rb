@@ -14,7 +14,7 @@ def assign_rooms(list)
   new_array = []
   i = 0
   while i < list.length do
-    new_array << "Hello, #{list[i]}! You'll be assigned to room #{i}!"
+    new_array << "Hello, #{list[i]}! You'll be assigned to room #{i + 1}!"
     i += 1
   end
   new_array
