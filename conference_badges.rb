@@ -21,6 +21,12 @@ def assign_rooms(list)
 end
 
 def printer(array)
-  batch_badge_creator(array).join(", ")
-  assign_rooms(array).join(", ")
+new_arr_1 = batch_badge_creator(array)
+new_arr_2 = assign_rooms(array)
+i = 0
+  while i < array.length do
+    puts new_arr_1[i]
+    puts new_arr_2[i]
+    i += 1
+  end
 end
